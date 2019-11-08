@@ -11,9 +11,10 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
+  binding.pry
   steven_movies = data.find do |key, value|
     key[:name] == "Steven Spielberg"
-binding.pry
+
 
 end
 
