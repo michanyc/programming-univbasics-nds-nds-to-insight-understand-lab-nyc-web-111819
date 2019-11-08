@@ -13,7 +13,7 @@ end
 def print_first_directors_movie_titles
   steven_movies = data.find do |key, value|
     key[:name] == "Steven Spielberg"
-    
+
   # steven_movies = data.find do |key, value|
   #   key[:name] == "Steven Spielberg"
   #
